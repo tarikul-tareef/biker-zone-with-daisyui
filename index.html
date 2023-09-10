@@ -4,11 +4,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biker zone with DaisyUI</title>
+  <title>Biker Zone with daisy UI</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Tailwind and daisy UI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .font-poppins {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .font-inter {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .font-manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 </head>
 
 <body>
+  <!-- Header Section -->
+  <header class="font-poppins max-w-6xl mx-auto">
+    <!-- navbar section -->
+    <nav>
 
+    </nav>
+    <!-- banner section -->
+    <section class="bg-[#E76F511A]">
+      <div class="carousel w-full">
+        <!-- slide-1 -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="hero h-[550px] lg:mx-20">
+            <div class="hero-content flex-col  lg:flex-row-reverse">
+              <div class="flex-1">
+                <img src="images/slider/bike1.png" class="w-full rounded-lg" />
+              </div>
+              <div class="flex-1">
+                <h1 class="text-3xl lg:text-6xl font-bold text-black">Ride-on R15 V4
+                  <br>
+                  with Smile
+                </h1>
+                <p class="py-6 text-[#000000CC]">Amet minim mollit non deserunt ullamco
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <button class="btn bg-[#E76F51] text-white">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn bg-[#E76F511A] hover:text-[#E76F51]">❮</a>
+            <a href="#slide2" class="btn bg-[#E76F511A] hover:text-[#E76F51]">❯</a>
+          </div>
+        </div>
+        <!-- slide-2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="hero h-[550px] lg:mx-20">
+            <div class="hero-content flex-col  lg:flex-row-reverse">
+              <div class="flex-1">
+                <img src="images/slider/bike2.png" class="w-full rounded-lg" />
+              </div>
+              <div class="flex-1">
+                <h1 class="text-3xl lg:text-6xl font-bold text-black">Ride-on R15 V4
+                  <br>
+                  with Smile
+                </h1>
+                <p class="py-6 text-[#000000CC]">Amet minim mollit non deserunt ullamco
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <button class="btn bg-[#E76F51] text-white">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn bg-[#E76F511A] hover:text-[#E76F51]">❮</a>
+            <a href="#slide3" class="btn bg-[#E76F511A] hover:text-[#E76F51]">❯</a>
+          </div>
+        </div>
+        <!-- slide-3  -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="hero h-[550px] lg:mx-20">
+            <div class="hero-content flex-col  lg:flex-row-reverse">
+              <div class="flex-1">
+                <img src="images/slider/bike3.png" class="w-full rounded-lg" />
+              </div>
+              <div class="flex-1">
+                <h1 class="text-3xl lg:text-6xl font-bold text-black">Ride-on R15 V4
+                  <br>
+                  with Smile
+                </h1>
+                <p class="py-6 text-[#000000CC]">Amet minim mollit non deserunt ullamco
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <button class="btn bg-[#E76F51] text-white">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn bg-[#E76F511A] hover:text-[#E76F51]">❮</a>
+            <a href="#slide4" class="btn bg-[#E76F511A] hover:text-[#E76F51]">❯</a>
+          </div>
+        </div>
+        <!-- slide-4 -->
+        <div id="slide4" class="carousel-item relative w-full">
+          <div class="hero h-[550px] lg:mx-20">
+            <div class="hero-content flex-col  lg:flex-row-reverse">
+              <div class="flex-1">
+                <img src="images/slider/bike4.png" class="w-full rounded-lg" />
+              </div>
+              <div class="flex-1">
+                <h1 class="text-3xl lg:text-6xl font-bold text-black">Ride-on R15 V4
+                  <br>
+                  with Smile
+                </h1>
+                <p class="py-6 text-[#000000CC]">Amet minim mollit non deserunt ullamco
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <button class="btn bg-[#E76F51] text-white">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn bg-[#E76F511A] hover:text-[#E76F51]">❮</a>
+            <a href="#slide1" class="btn bg-[#E76F511A] hover:text-[#E76F51]">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- Main Section -->
+  <main>
+
+  </main>
+  <!-- Footer Section -->
+  <footer>
+
+  </footer>
 </body>
 
 </html>
